@@ -74,7 +74,7 @@ def create_map(filename):
 
 map_data, map_width, map_height, pacman_x, pacman_y = create_map('src/map.txt')
 screen = pygame.display.set_mode((map_width * 20, map_height * 20))
-pygame.display.set_caption('Pac-Man')
+pygame.display.set_caption('Beef-Man')
 
 pacman_image = pygame.image.load('src/images.png')
 pacman_image = pygame.transform.scale(pacman_image, (20, 20))
