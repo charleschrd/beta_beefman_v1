@@ -132,7 +132,7 @@ while True:
 
   keys = pygame.key.get_pressed()
   if keys[pygame.K_m]:
-    text = font.render("Viande :{}/{}".format(feed, enough_feed), True, (255, 100, 0))
+    text = font.render("Beef :{}/{}".format(feed, enough_feed), True, (255, 100, 0))
     text_rect = text.get_rect()
     rect_back = pygame.Rect(5, 5, 300, 50)
     text_x = rect_back.centerx - text_rect.width // 2
