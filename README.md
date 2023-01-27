@@ -3,6 +3,10 @@ Coding projects to test and learn python, manipulating class and stuff !
 
 ## How to use
 
+Install pygame :
+```bash
+pip install pygame
+```
 Execute the code :
 ```bash
 python3 main.py
